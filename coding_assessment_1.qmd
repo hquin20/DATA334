@@ -25,4 +25,7 @@ ggplot(diamonds, aes(x = price)) +
 
 **Question 3** (2 points). Push your .qmd file to your GitHub repository. For this question, give the link to your GitHub repository here.
 
+https://github.com/hquin20/DATA334/tree/main 
+
+
 
