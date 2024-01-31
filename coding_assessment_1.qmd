@@ -1,0 +1,28 @@
+---
+title: "Coding Assessment 1"
+author: "Hailey Quintavalle"
+format: 
+  html:
+    embed-resources: true
+---
+
+“All work presented is my own, and I have followed all rules for collaboration. I have not used any AI for this assignment.” - Hailey Quintavalle
+
+**Question 1** (4 points). Using the diamonds data set, create the following plot. For the first plot, you should change the default colour and fill of your histogram to values other than the default, but they do not need to match the colorus given below exactly.
+
+```{r message = FALSE, warning = FALSE}
+library(tidyverse)
+
+ggplot(diamonds, aes(x = price)) +
+  geom_histogram(color = "blue", fill = "lightblue") +
+  facet_wrap(~ cut) +
+  theme(plot.background = element_rect(fill = "lightgrey"),
+        axis.line = element_line(color = "red"))
+```
+
+**Question 2** (4 points). Change 2 theme options of your plot in the previous question. At least one of these changes should involve the use of either element_rect() or element_line() in some way. The following gives the reference page we used in class: https://ggplot2.tidyverse.org/reference/theme.html
+
+
+**Question 3** (2 points). Push your .qmd file to your GitHub repository. For this question, give the link to your GitHub repository here.
+
+
