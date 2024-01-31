@@ -1,1 +1,3 @@
-# DATA334
+# STAT/DATA 334
+
+Data Visualization 
